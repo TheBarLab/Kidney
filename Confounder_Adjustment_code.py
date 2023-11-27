@@ -2,7 +2,7 @@ import pandas as pd
 from scipy import stats
 import numpy as np
 
-# Function to calculate partial correlation
+# Function to calculate partial correlations
 def partial_correlation(r_xy, r_xz, r_yz):
     return (r_xy - r_xz * r_yz) / np.sqrt((1 - r_xz**2) * (1 - r_yz**2))
 
