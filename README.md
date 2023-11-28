@@ -18,6 +18,6 @@ Methyl_sites_heatmap_V1.R - R script for creating figure 5 heatmap.
 
 PullOutSequences.py - script for pulling DNA sequences from Entrez.
 
-chinese_v1_metadata.csv - metadata for the NGDC-CNCB dataset used.
+v1_metadata.csv - metadata for the NGDC-CNCB dataset used.
 
 kidney_unique_sites_0_2.csv - output example for unique sites.
